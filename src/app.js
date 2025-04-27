@@ -13,10 +13,17 @@ app.use(cors({
 }));
 */
 
+/*
+In web development, credentials refer to things the browser sends along with requests to prove who you are:
+ Cookies, Authorization headers (e.g., JWT tokens),  Client certificates
+They’re required when a server needs to recognize and trust a request (like checking if a user is logged in).
+*/
+
 app.use(cors({
   origin: process.env.CORS_ORIGIN,
   credentials: true,
 }))
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true ,limit: '16kb' }));

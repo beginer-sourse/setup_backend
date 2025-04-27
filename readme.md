@@ -17,3 +17,9 @@ doItTwice();
 // Output:
 // Hi!
 // Hi!
+
+
+date 27/4
+used hooks 
+used "mongoose-aggregate-paginate-v2 and plugin hooks to use aggregate methods and pipeline
+used JWT-- use to encrypt the data, bcrypt -- use to hash the password 
